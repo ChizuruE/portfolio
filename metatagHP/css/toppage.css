@@ -1,0 +1,176 @@
+
+#slideshow{
+    width:auto;
+    height:350px;
+    background-color:#fff;
+    margin: 30px auto; 
+}
+
+#page{
+    width:960px;
+    background-color:#fff;
+    margin:30px auto;
+}
+
+#slider li { list-style:none; }
+
+#slider {
+    width:960px;
+    height:350px;
+
+    /*IE bugfix*/
+    padding:0;
+    margin:0;
+}
+
+.news_twi{
+/*	height:20%;*/
+    height:350px;
+/*	width:50%;*/
+    width:900px;
+	margin:0px auto;
+    margin-top:30px;
+    background-color:#fff;
+}
+
+#left_box{
+    width:64%;
+    height:350px;
+    float:left;
+    margin:0 auto;
+}
+
+.news{
+	width:574px;
+    height:50%;
+	background-color:‹#777;
+    border: 1px solid #ebe8e8;  
+    border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+}
+
+#news_title{
+    height:35px;
+}
+
+#news_box{
+    padding: 10px;
+    margin: 0 auto;
+    width:92%;
+    height:100px;
+    background-color:white;
+    overflow:auto;
+    border: 1px solid #ebe8e8;  
+    border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+}
+
+#ad{
+/*    margin:2px 15px 2px 15px;*/
+    margin: 5px 8px 0px 8px;
+    width:576px;
+    height:50%;
+}
+
+.twitter{
+	/*width:10%;*/
+	/*height:10%;*/
+	float:right;
+}
+
+.contents{
+    margin-left:30px;
+}
+
+.contact_address{
+/*    margin-left:150px;*/
+    margin-left:60px;
+}
+
+.aboutus{
+    margin:0 auto;
+    width:900px;
+    height:300px;
+    background-color:#fff;
+}
+
+#aboutus_sentense{
+    padding:0 0 0 28px;
+    float:left;
+}
+
+#aboutus_studybox{
+    margin-top:20px;
+}
+
+#aboutus_face{
+    width:270px;
+    height:270px;
+    float:right;
+}
+
+.works{
+    margin:0 auto;
+    width:900px;
+    height:237px;
+    background-color:#fff;
+}
+
+#works_pics{
+    margin:0 auto;
+    width:900px;
+    height:200px;
+    background-color:#fff;
+}
+
+ul.dummy_menu {
+    margin: 0 0 25;
+    padding: 1em 0;
+    list-style: none;
+    border-top: 0px dotted #ccc;
+    border-bottom: 0px dotted #ccc;
+}
+ul.dummy_menu li {
+    float: left;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+/*clearfixは省略しています*/
+
+.schedule{
+    margin:0 auto;
+    width:900px;
+    height:350px;
+}
+
+.contact{
+    margin:0 auto;
+    width:900px;
+    height:200px;
+    background-color:#fff;
+}
+
+
+.face_book_plgin_shadow_hidden {
+    background: none repeat scroll 0 0 #FCFBF9;
+}
+
+
+
+.face_book_plgin_proposal_2 {
+    border-color: #ACACAC;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    margin: 0 0 41.6px;
+    overflow: hidden !important;
+    position: relative;
+    width: 100% !important;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+

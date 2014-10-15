@@ -1,0 +1,44 @@
+﻿#schedule_mainIMG{
+	margin:20px auto;
+	width:900px;
+	height:auto;
+	
+}
+#schedule_title{
+	margin:40px auto 0;
+	width:900px;
+	height:30px;
+	
+}
+#facebook_link{
+	margin:auto;
+	width:900px;
+}
+
+#schedule_calender{
+	margin:0 auto 60px;
+	width:902px;
+	height:400px;
+	
+}
+	#schedule{
+		margin-top:23px;
+		float:left;
+		padding-right: 2px;
+	}
+	#calender{
+		width:300px;
+		height:400px;
+		float:left;
+	}
+.clear{
+	clear:both;
+}
+
+
+footer.font_white{
+    color : white;
+    text-align: center;
+    height:30px;
+    background-color:#4468a9;
+}
