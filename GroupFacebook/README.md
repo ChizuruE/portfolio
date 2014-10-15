@@ -1,5 +1,5 @@
-ProjectKCG
+GroupFacebook
 ==========
 
-KCG学生集団とのなんやかんや。
-TOKYO HACKATHONのグループCのなんやかんやです。
+KCG学生３人によるwebアプリ。
+TOKYO HACKATHONのグループCとして作成中。
