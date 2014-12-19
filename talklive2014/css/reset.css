@@ -1,0 +1,107 @@
+/*初めに読み込むCSS*/
+/*画像タグはwidthを継承してるから親要素が変わると子要素は変わってしまう*/
+
+@charset "utf-8";
+
+/*
+ * reset.css
+ *
+**/
+
+/* reset
+-----------------------------------------------------------------*/
+*{
+	font-size: 100%;
+}
+
+html{
+	margin: 0;
+	overflow: scroll;
+	padding: 0;
+}
+
+body{
+	border: 0;
+	color: #333;
+	font-family: "メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+	font-size: 12px;
+	font-size: 100%;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+a,a:link{
+	border: 0;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+	vertical-align: baseline;
+}
+a:hover{
+	text-decoration: none;
+}
+
+a:visited{
+	color: #;
+}
+a:active{
+	color: #;
+}
+
+div,dl,dt,dd,form,img,li,ol,p,span,strong,table,tr,th,td,u,ul{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	/*vertical-align: baseline;*/ /*なにこれ*/
+	vertical-align: middle;
+}
+br{
+	letter-spacing: 0;
+}
+h1,h2,h3,h4,h5,h6,em{
+	border: 0;
+	font-style: normal;
+	font-weight: normal;
+	height: auto;
+	margin: 0;
+	max-width: 100%;
+	padding: 0;
+	vertical-align: baseline;
+	width: inherit;
+}
+img{
+	height: auto;
+	max-width: 100%;
+	vertical-align: top;
+/*	width: inherit;*/　　/*これなに？*/
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ul,ol,li,dl,dt,dd{
+	list-style-type: none;
+}
+form,input,select,textarea{
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+/*HTML5を使う場合は以下を解放する*/
+/* HTML5 for older browsers */
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+	border: 0;
+	display: block;
+	font: inherit;
+	margin: 0;
+	padding: 0;
+	/*vertical-align: baseline;*/　/*なにこれ*/
+	vertical-align: middle;
+}

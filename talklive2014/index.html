@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><!--IE9未満で互換表示設定をデフォルトでさせない。-->
+	<meta name="format-detection" content="telephone=no,address=no,email=no"><!--iPhoneとかで電話番号やアドレスのリンクを拒否する。-->
+	<link rel="shortcut icon" type="/common/img/vnd.microsoft.icon" href="/favicon.ico"><!-- ファビコン(32px×32px) -->
+	<title>めたたぐトークライブ2014</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css"  media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/layout.css" media="all">
+
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+
+
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+	<!--[if lt IE 9]>IE9未満やったら呼び出す命令
+	<script type="text/javascript">
+	modan();
+	</script>
+	<![endif]-->
+
+	<!-- JS -->
+	<script type="text/javascript" charset="utf-8">
+		$(window).load(function() {
+			$('.flexslider').flexslider({
+				animation: "slide",
+				controlNav: false, /*　スライド下の○○○っていうナビゲーション */
+				directionNav: true,
+				directionNavHide: false, /* 常に表示 */
+				// controlsContainer: ".flexslider-container",
+				slideshowSpeed: 5000
+			})
+		});
+
+		$(function(){
+     		$('a img').hover(function(){
+        		$(this).attr('src', $(this).attr('src').replace('_off', '_on'));
+         	}, function(){
+	            	if(!$(this).hasClass('currentPage')) {
+	             		$(this).attr('src', $(this).attr('src').replace('_on', '_off'));
+	        		}
+   				});
+		});
+
+		$(function(){
+		});
+	</script>
+
+</head>
+
+<body>
+<!-- header -->
+<header >
+	<hgroup>
+		<img src="img/title.png" alt="TALKLIVE　SCHEDULE">
+	</hgroup>
+</header>
+<!-- //header -->
+
+<!-- img -->
+<div id="img">
+	<div id="line-top"></div>
+	<div class="flexslider-container" id="slideback">
+		<div class="flexslider">
+				<ul class="slides">
+					<li><img src="img/metatalk.png" alt="info1" id="metatalk"></li>
+					<li><img src="img/Klab.png" alt="info2" id="KLab"></li>
+				</ul>
+		</div>
+	</div>
+	<div id="line-bottom"></div>
+</div>
+<div><img src="img/arrow.png" alt="arrow" id="arrow"></div>
+<!-- //img -->
+
+<!-- contents -->
+<div id="contents">
+	<!-- main1 -->
+	<section id="main1">
+		<div class="title">
+			<img src="img/datetitle_01.png" alt="11/06(FRI)PLACE：408教室">
+		</div>
+		<div class="detail">
+			<ul>
+				<li class="circle">
+					<img src="img/blue_part01.png" alt="第一部">
+					<p>前田先生　×　渕野先生</p>
+					<img src="img/blue_arrow.png" alt="▼">
+					<p>うみのどうぶつ</p><p>保護色と捕食の境界線</p>
+				</li>
+				<li class="circle">
+					<img src="img/blue_part02.png" alt="第二部">
+					<p>篠田先生　×　高橋先生</p>
+					<img src="img/blue_arrow.png" alt="▼">
+					<p>飛び出せ、二次元！</p>
+				</li>
+				<li class="circle">
+					<img src="img/blue_part03.png" alt="第三部">
+					<p>立嶋先生　×　坪内先生</p>
+					<img src="img/blue_arrow.png" alt="▼">
+					<p>Beyond The Time</p><p>〜あの青春が教えてくれたこと〜</p>
+				</li>
+				<li class="circle">
+					<img src="img/blue_part04.png" alt="第四部">
+					<p>北野先生　×　前納先生</p>
+					<img src="img/blue_arrow.png" alt="▼">
+					<p>大人のリアル恋愛学</p><p>〜冷静に情熱の間〜</p>
+				</li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+	</section>
+	<!-- //main1 -->
+	
+	<!-- main2 -->
+	<section id="main2">
+		<div class="title">
+			<img src="img/datetitle_02.png" alt="11/06(FRI)PLACE：408教室">
+		</div>
+		<div class="detail">
+			<ul>
+				<li class="circle">
+					<img src="img/blue_part01.png" alt="第一部">
+					<p>水原先生　×　井幡先生</p>
+					<img src="img/blue_arrow.png" alt="▼">
+					<p>酒と記憶</p>
+				</li>
+				<li class="circle">
+					<img src="img/blue_part02.png" alt="第二部">
+					<p>青山先生　×　田渕先生</p>
+					<img src="img/blue_arrow.png" alt="▼">
+					<p>悟りにチャレンジ！</p><p>〜心の平穏を保つ秘訣〜</p>
+				</li>
+				<li class="circle">
+					<img src="img/blue_part03.png" alt="第三部">
+					<p>水井先生×王先生×許先生</p>
+					<img src="img/blue_arrow.png" alt="▼">
+					<p>ヒーローをめぐる冒険</p><p>かっこいいってなあに？</p>
+				</li>
+				<li class="circle">
+					<img src="img/blue_part04.png" alt="第四部">
+					<p>竹内先生　×　松下先生</p>
+					<img src="img/blue_arrow.png" alt="▼">
+					<p>俺たちの価値観</p>
+				</li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+	</section>
+	<!-- //main2-->
+
+	<!-- link -->
+	<section id="link">
+		<a href="http://me-ta-tag.com/" target="blank"><img src="img/linkbtn_off.png" alt="めたたぐHPはこちら"></a>
+	</section>
+	<!-- //link -->
+
+</div>
+
+<!-- //contents -->
+
+<!-- footer -->
+<footer>
+	<p><small>Copyright &copy; 2014 めたたぐ All rights reserved.</small></p>
+</footer>
+<!-- //footer -->
+
+	
+</body>
+</html>
