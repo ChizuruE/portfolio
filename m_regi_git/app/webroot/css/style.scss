@@ -1,0 +1,13 @@
+@import url("reset.css");
+
+header{
+    color: #000000;
+    background-color: lightgreen;
+    a{
+        color: black !important;
+        &:hover{
+            color: #556b2f !important;
+        }
+    }
+}
+
