@@ -274,11 +274,6 @@ function pushEndScene(time, totalHitCount, totalMissCount, dataArray){
         backLabel.text = "";
     });
     
-
-    
-    
-
-   
     //戻ってきた順位を元にランキングを表示する
     var rank = rankCheak();
     if(rank !== 0){
